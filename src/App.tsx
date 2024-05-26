@@ -1,11 +1,12 @@
-import "./App.css";
+// src/App.tsx
+import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <p className="text-red-500">hej</p>
-    </>
+    <div className="App">
+      <Home />
+    </div>
   );
-}
+};
 
 export default App;
