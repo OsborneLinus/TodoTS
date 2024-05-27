@@ -1,4 +1,3 @@
-// src/components/AddTodo.tsx
 import { useState } from "react";
 
 interface AddTodoProps {

@@ -1,4 +1,3 @@
-// src/components/TodoItem.tsx
 import { Todo } from "../models/Todo";
 
 interface TodoItemProps {
