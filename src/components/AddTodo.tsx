@@ -22,8 +22,8 @@ const AddTodo = ({ addTodo }: AddTodoProps) => {
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className="border px-3 py-2 w-[300px] rounded-lg focus:outline-none"
-          placeholder="What are you focusing on today?"
+          className="border px-3 py-2 w-full rounded-lg focus:outline-none"
+          placeholder="Add todos"
         />
         <button
           className="bg-green-400 text-white rounded-lg whitespace-nowrap px-2"

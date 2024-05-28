@@ -8,7 +8,7 @@ interface TodoItemProps {
 
 const TodoItem = ({ todo, toggleTodo, removeTodo }: TodoItemProps) => {
   return (
-    <div className="flex items-center justify-between p-2 border-b w-[400px]">
+    <div className="flex items-center justify-between p-2 border-b w-full md:w-[400px] ">
       <div>
         <input
           type="checkbox"

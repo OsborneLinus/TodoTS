@@ -23,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 flex items-center justify-center flex-col">
       <h1 className="text-2xl font-bold mb-4">Todo App</h1>
       <AddTodo addTodo={addTodo} />
       <TodoList todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo} />
