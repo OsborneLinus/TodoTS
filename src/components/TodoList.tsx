@@ -8,7 +8,6 @@ interface TodoListProps {
 }
 
 const TodoList = ({ todos, toggleTodo, removeTodo }: TodoListProps) => {
-  console.log(todos);
   return (
     <div className="w-full flex flex-col justify-center items-center">
       {todos.map((todo) => (

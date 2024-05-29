@@ -23,13 +23,13 @@ const AddTodo = ({ addTodo }: AddTodoProps) => {
           value={text}
           onChange={(e) => setText(e.target.value)}
           className="border px-3 py-2 w-full rounded-lg focus:outline-none"
-          placeholder="Add todos"
+          placeholder="What todo?"
         />
         <button
-          className="bg-green-400 text-white rounded-lg whitespace-nowrap px-2"
+          className="bg-green-400 text-white rounded-lg whitespace-nowrap px-4"
           type="submit"
         >
-          Add Todo
+          Add
         </button>
       </div>
     </form>
